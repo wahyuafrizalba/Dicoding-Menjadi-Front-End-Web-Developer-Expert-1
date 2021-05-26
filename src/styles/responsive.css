@@ -1,0 +1,40 @@
+
+@media screen and (min-width: 455px) {
+
+}
+
+@media screen and (min-width: 500px) {
+
+}
+
+@media screen and (min-width: 800px) {
+    .navbar-menu {
+        position: initial;
+        flex-direction: initial;
+        background-color: initial;
+        width: initial;
+        box-shadow: none;
+        transition: initial;
+    }
+
+    .navbar-item {
+        margin-left: 50px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 800px) {
+
+}
+
+@media screen and (min-width: 900px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
