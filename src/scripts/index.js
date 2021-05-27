@@ -3,10 +3,6 @@ import '../styles/main.css';
 import '../styles/responsive.css';
 import restaurants from '../DATA.json';
 
-// const json = require('../DATA.json');
-
-console.log('Hello Coders! :)');
-
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.navbar-menu');
 const backgroundNavbar = document.querySelector('.background-navbar');
@@ -53,6 +49,7 @@ restaurants.restaurants.forEach((restoran) => {
   const image = document.createElement('img');
   image.src = restoran.pictureId;
   image.alt = restoran.name;
+  image.tabIndex = '0';
   article.appendChild(image);
 
   const rating = document.createElement('p');
@@ -63,24 +60,28 @@ restaurants.restaurants.forEach((restoran) => {
   rating.appendChild(star);
 
   rating.innerHTML += ` ${restoran.rating}`;
+  rating.tabIndex = '0';
 
   article.appendChild(rating);
 
   const text = document.createElement('div');
   text.className = 'text';
 
-  const nama = document.createElement('h2');
+  const nama = document.createElement('h3');
   nama.innerHTML = restoran.name;
+  nama.tabIndex = '0';
   text.appendChild(nama);
 
   const kota = document.createElement('p');
   kota.innerHTML = restoran.city;
   kota.className = 'kota';
+  kota.tabIndex = '0';
   text.appendChild(kota);
 
   const deskripsi = document.createElement('p');
   deskripsi.innerHTML = restoran.description;
   deskripsi.className = 'deskripsi';
+  deskripsi.tabIndex = '0';
   text.appendChild(deskripsi);
 
   article.appendChild(text);

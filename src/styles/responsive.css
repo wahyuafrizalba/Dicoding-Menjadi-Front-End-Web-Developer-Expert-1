@@ -4,16 +4,7 @@
         width: 310px;
         margin: 50px auto;
     }
-
 }
-
-/* @media screen and (min-width: 683px) {
-    .restoran { 
-        
-        width: initial;
-    }
-
-} */
 
 @media screen and (min-width: 700px) {
     .restoran { 
@@ -32,10 +23,6 @@
         transition: initial;
     }
 
-    .navbar-item {
-        margin-left: 50px;
-    }
-
     .hamburger {
         display: none;
     }
@@ -52,14 +39,5 @@
 @media screen and (min-width: 1040px) {
     .restoran { 
         width: 990px;
-    }
-}
-
-@media screen and (min-width: 1140px) {
-    .navbar.scrolled {
-        /* margin: unset;
-        padding: 188px; */
-        /* position: initial;
-        background-color: initial; */
     }
 }
