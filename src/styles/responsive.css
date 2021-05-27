@@ -1,10 +1,25 @@
 
-@media screen and (min-width: 455px) {
+@media screen and (min-width: 398px) {
+    .restoran { 
+        width: 310px;
+        margin: 50px auto;
+    }
 
 }
 
-@media screen and (min-width: 500px) {
+/* @media screen and (min-width: 683px) {
+    .restoran { 
+        
+        width: initial;
+    }
 
+} */
+
+@media screen and (min-width: 700px) {
+    .restoran { 
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        width: 650px;
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -27,14 +42,24 @@
     
 }
 
-@media screen and (min-width: 800px) {
-
+@media screen and (min-width: 1020px) {
+    .restoran { 
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        width: initial;
+    }
 }
 
-@media screen and (min-width: 900px) {
-
+@media screen and (min-width: 1040px) {
+    .restoran { 
+        width: 990px;
+    }
 }
 
-@media screen and (min-width: 1200px) {
-
+@media screen and (min-width: 1140px) {
+    .navbar.scrolled {
+        /* margin: unset;
+        padding: 188px; */
+        /* position: initial;
+        background-color: initial; */
+    }
 }
