@@ -60,7 +60,6 @@ restaurants.restaurants.forEach((restoran) => {
   rating.appendChild(star);
 
   rating.innerHTML += ` ${restoran.rating}`;
-  rating.tabIndex = '0';
 
   article.appendChild(rating);
 
@@ -75,13 +74,11 @@ restaurants.restaurants.forEach((restoran) => {
   const kota = document.createElement('p');
   kota.innerHTML = restoran.city;
   kota.className = 'kota';
-  kota.tabIndex = '0';
   text.appendChild(kota);
 
   const deskripsi = document.createElement('p');
   deskripsi.innerHTML = restoran.description;
   deskripsi.className = 'deskripsi';
-  deskripsi.tabIndex = '0';
   text.appendChild(deskripsi);
 
   article.appendChild(text);
